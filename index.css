@@ -1,0 +1,179 @@
+h1 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-kerning: 5px;
+    font-size: 40px;
+}
+    
+body {
+    font-family: 'Calibri', sans-serif;
+}
+
+.parallax { 
+    background-image: url("exercises/images/south_college.jpg"); /* The image used */
+    height: 400px; /* Set a specific height */
+    background-attachment: fixed; /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: auto;
+    transform: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+nav {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: pink;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px 5px 5px 5px;
+}
+
+li a:hover {
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.6; /* button transparency */
+    transition: 0.9s; /* speed at which button turns transparent */
+}
+
+li a:active {
+    opacity: 0.5px;
+    border: 0.5px solid lightpink;
+    color: pink;
+    padding: 5px;
+}
+
+article {
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: dashed 3px pink;
+    border-radius: 15px 15px 15px 15px;
+}
+
+a.button2:link {
+    color: deeppink;
+    font-weight: 600;
+    border: 1px solid deeppink;
+    background-color: #fff3fc;
+    padding: 5px;
+    position: inherit;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button3:link { /* button options for writing samples */
+    color: deeppink;
+    border: 1px solid deeppink;
+    background-color: #fff3fc;
+    padding: 10px;
+    position: relative;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button3:active { /* button options for writing samples */
+    color: darkcyan;
+}
+
+a.button3:visited { /* button options for writing samples */
+    color: #03d2e1;
+    border: 1px solid #03de21;
+    background-color: #e0eced;
+}
+
+a.button3:hover { /* button options for writing samples */
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    background-color: #e0eced;
+}
+
+p.p2 { /* text for writing samples */
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+}
+
+p.articlep { /* about me */
+    font-size: 18px;
+}
+
+li.li2 { /* bulleted list in resume */
+    font-size: 16px;
+    float: none;
+}
+
+ul.ul2 { /* secondary information in Work & Intern Exp. of resume */
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+img {
+    
+}
+
+.container {
+    width: 400px;
+    max-height: 200px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: pink;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.container2 {
+    display: inline-block;
+    width: 100%;
+    max-height: 200px;
+    vertical-align: top;
+    margin: 0 auto;
+    
+}
