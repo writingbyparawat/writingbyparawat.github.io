@@ -1,0 +1,46 @@
+body {
+    color: gray;
+    background-color: #f4f4f0;
+}
+
+p {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.18em;
+    text-transform: lowercase;
+}
+
+a.button:link {
+    color: deeppink;
+    border: 1px solid deeppink;
+    background-color: #fff3fc;
+    padding: 10px;
+    position: relative;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active {
+    color: darkcyan;
+}
+
+a.button:visited {
+    color: #03d2e1;
+    border: 1px solid #03de21;
+    background-color: #e0eced;
+}
+
+a.button:hover {
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    background-color: #e0eced;
+}
